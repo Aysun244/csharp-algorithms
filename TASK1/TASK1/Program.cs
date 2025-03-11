@@ -28,29 +28,42 @@
 //    Console.WriteLine("daxil olunan ededler cut olmalidir!");
 //}
 
-int num = 76;
-if (num >= 91 && num <= 100)
+//int num = 76;
+//if (num >= 91 && num <= 100)
+//{
+//    Console.WriteLine("A");
+//}
+//else if (num >= 81 && num <= 90)
+//{
+//    Console.WriteLine("B");
+//}
+//else if (num >= 71 && num <= 80)
+//{
+//    Console.WriteLine("C");
+//}
+//else if (num >= 61 && num <= 70)
+//{
+//    Console.WriteLine("D");
+//}
+//else if (num >= 51 && num <= 60)
+//{
+//    Console.WriteLine("E");
+//}
+//else
+//{
+//    Console.WriteLine("Terbrikler kesilmisiniz!");
+//}
+
+int numA = 10, numB = 2245, numC = 42;
+int sum = 0;
+if (numA % 5 == 0) sum += numA;
+if (numB % 5 == 0) sum += numB;
+if (numC % 5 == 0) sum += numC;
+if (sum == 0)
 {
-    Console.WriteLine("A");
-}
-else if (num >= 81 && num <= 90)
-{
-    Console.WriteLine("B");
-}
-else if (num >= 71 && num <= 80)
-{
-    Console.WriteLine("C");
-}
-else if (num >= 61 && num <= 70)
-{
-    Console.WriteLine("D");
-}
-else if (num >= 51 && num <= 60)
-{
-    Console.WriteLine("E");
+    Console.WriteLine("Hec bir eded 5e tam bolunmur");
 }
 else
 {
-    Console.WriteLine("Terbrikler kesilmisiniz!");
+    Console.WriteLine(sum);
 }
-

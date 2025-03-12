@@ -68,7 +68,7 @@
 //    Console.WriteLine(sum);
 //}
 
-//int num =29;
+//int num = 79;
 //int b = num;
 //int a;
 //num %= 10;
@@ -82,16 +82,26 @@
 //    Console.WriteLine("Teklik mertebe vahidi boyukdur");
 //}
 
-int n = 10;
-int a = 1, b = 1, sum = 0;
-for (int i=0; i<n; i++)
-{
-    sum += a;
-    int num = a + b;
-    a = b;
-    b = num;
+//int n = 10;
+//int a = 1, b = 1, sum = 0;
+//for (int i=0; i<n; i++)
+//{
+//    sum += a;
+//    int num = a + b;
+//    a = b;
+//    b = num;
 
+//}
+//{
+//    Console.WriteLine("Cem" + sum);
+//}
+
+int[] arr={ 3 , 4 , 6 , 34 };
+int sum = 0;
+for (int i=0; i<arr.Length; i++)
+{
+    sum += arr[i];
 }
 {
-    Console.WriteLine("Cem" + sum);
+    Console.WriteLine("Cem:" + sum);
 }

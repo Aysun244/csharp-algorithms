@@ -96,12 +96,28 @@
 //    Console.WriteLine("Cem" + sum);
 //}
 
-int[] arr={ 3 , 4 , 6 , 34 };
-int sum = 0;
-for (int i=0; i<arr.Length; i++)
+//int[] arr={ 3 , 4 , 6 , 34 };
+//int sum = 0;
+//for (int i=0; i<arr.Length; i++)
+//{
+//    sum += arr[i];
+//}
+//{
+//    Console.WriteLine("Cem:" + sum);
+//}
+
+int num = 1243;
+int max = 0;
+int a;
+while(num>0)
 {
-    sum += arr[i];
+    a = num % 10;
+        if(a>max)
+    {
+        max = a;
+    }
+    num /= 10;
 }
 {
-    Console.WriteLine("Cem:" + sum);
+    Console.WriteLine(max);
 }

@@ -68,16 +68,30 @@
 //    Console.WriteLine(sum);
 //}
 
-int num =29;
-int b = num;
-int a;
-num %= 10;
-a = (b - num) / 10;
-if (a > num)
+//int num =29;
+//int b = num;
+//int a;
+//num %= 10;
+//a = (b - num) / 10;
+//if (a > num)
+//{
+//    Console.WriteLine("Onluq mertebe vahidi boyukdu");
+//}
+//else
+//{
+//    Console.WriteLine("Teklik mertebe vahidi boyukdur");
+//}
+
+int n = 10;
+int a = 1, b = 1, sum = 0;
+for (int i=0; i<n; i++)
 {
-    Console.WriteLine("Onluq mertebe vahidi boyukdu");
+    sum += a;
+    int num = a + b;
+    a = b;
+    b = num;
+
 }
-else
 {
-    Console.WriteLine("Teklik mertebe vahidi boyukdur");
+    Console.WriteLine("Cem" + sum);
 }

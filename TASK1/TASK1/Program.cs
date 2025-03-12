@@ -54,16 +54,30 @@
 //    Console.WriteLine("Terbrikler kesilmisiniz!");
 //}
 
-int numA = 10, numB = 2245, numC = 42;
-int sum = 0;
-if (numA % 5 == 0) sum += numA;
-if (numB % 5 == 0) sum += numB;
-if (numC % 5 == 0) sum += numC;
-if (sum == 0)
+//int numA = 10, numB = 2245, numC = 42;
+//int sum = 0;
+//if (numA % 5 == 0) sum += numA;
+//if (numB % 5 == 0) sum += numB;
+//if (numC % 5 == 0) sum += numC;
+//if (sum == 0)
+//{
+//    Console.WriteLine("Hec bir eded 5e tam bolunmur");
+//}
+//else
+//{
+//    Console.WriteLine(sum);
+//}
+
+int num =29;
+int b = num;
+int a;
+num %= 10;
+a = (b - num) / 10;
+if (a > num)
 {
-    Console.WriteLine("Hec bir eded 5e tam bolunmur");
+    Console.WriteLine("Onluq mertebe vahidi boyukdu");
 }
 else
 {
-    Console.WriteLine(sum);
+    Console.WriteLine("Teklik mertebe vahidi boyukdur");
 }

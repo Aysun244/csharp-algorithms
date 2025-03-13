@@ -133,14 +133,29 @@
 //    Console.WriteLine("En boyuk eded:" + max);
 //}
 
-int[] arr = { 15, 20, 30, 65 };
-int sum = 0;
-int count = arr.Length;
-for (int i=0;i<count;i++)
+//int[] arr = { 15, 20, 30, 65 };
+//int sum = 0;
+//int count = arr.Length;
+//for (int i=0;i<count;i++)
+//{
+//    sum += arr[i];
+//}
+//double average = (double )sum / count;
+//{
+//    Console.WriteLine("Orta qiymet:" + average);
+//}
+
+int[] arr = { 3, 5, 6, 90, 5, 76, 5, 90 };
+for (int i=0;i<arr.Length;i++)
 {
-    sum += arr[i];
-}
-double average = (double )sum / count;
-{
-    Console.WriteLine("Orta qiymet:" + average);
+    int count = 0;
+    for (int j=0;j<arr.Length;j++)
+    {
+        if (arr[i] == arr[j])
+            count++; ;
+                }
+    if (count ==1)
+    {
+        Console.WriteLine(arr[i]);
+    }
 }
